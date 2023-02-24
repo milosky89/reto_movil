@@ -1,5 +1,6 @@
 package com.reto.sistecredito.app.tasks;
 
+import com.reto.sistecredito.app.interactions.Notification;
 import com.reto.sistecredito.app.models.User;
 import com.reto.sistecredito.app.util.Constants;
 import net.serenitybdd.screenplay.Actor;
@@ -24,12 +25,8 @@ public class UserRegister implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
 
-        if(BTN_NOTIFICATION.resolveFor(actor).isPresent()){
-            actor.attemptsTo(
-                    Click.on(BTN_NOTIFICATION)
-            );
-        }
         actor.attemptsTo(
+                Notification.inScreen(),
                 WaitUntil.the(BTN_ITEM, WebElementStateMatchers.isPresent()).forNoMoreThan(4).seconds(),
                 Click.on(BTN_ITEM),
                 Click.on(BTN_ACCOUNT),

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="as Dafiti user" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-24T16:35:10" hostname="MacBook-Pro-ML-140301.local" time="60.459">
+<testsuite name="as Dafiti user" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-24T20:42:30" hostname="MacBook-Pro-ML-140301.local" time="71.905">
   <properties/>
-  <testcase name="User register successful" classname="as Dafiti user" time="60.459"/>
+  <testcase name="user add Product Successful" classname="as Dafiti user" time="71.905"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Feb 24, 2023 11:35:21 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+  <system-err><![CDATA[Feb 24, 2023 3:42:41 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
@@ -13,7 +13,7 @@ INFO: Detected dialect: W3C
  (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
         /_/                                                                
 
-TEST PASSED: User register successful
+TEST PASSED: user add Product Successful
 ----------------------------------------------------------------------------
 ]]></system-err>
 </testsuite>

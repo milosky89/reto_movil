@@ -8,7 +8,7 @@ import static cucumber.api.SnippetType.CAMELCASE;
 
 @CucumberOptions(
         features = {"src/test/resources/features"}
-        ,tags = "@userRegisterSuccessful"
+        ,tags = "@addProductSuccesful"
         ,glue = {"com.reto.sistecredito.app.stepsdefinitions"}
         ,snippets = CAMELCASE
 )

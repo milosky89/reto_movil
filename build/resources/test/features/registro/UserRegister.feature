@@ -1,11 +1,11 @@
 #author Camilo Garcia
 
-  @userRegister
-  Feature: as Dafiti user
+@userRegister
+Feature: as Dafiti user
     I want to register in the app
     to buy products
 
-    @userRegisterSuccessful
+  @userRegisterSuccessful
   Scenario Outline: User register successful
     Given tha camilo enters the Dafiti app
     When enter your data correctly
@@ -14,5 +14,5 @@
     Then must see profile <email>
 
     Examples:
-      |email|key|key2|documentType|number|name|lastName|birthDate|gender|message|
-      |andrea58@gmail.com|123456|123456|CC|2030405012|Andrea|Soto|05021989|Femenino|Andrea Soto|
+      |email|key|key2|documentType|number|name|lastName|birthDate|gender|
+      |andrea59@gmail.com|123456|123456|CC|2030405012|Andrea|Soto|05021989|Femenino|

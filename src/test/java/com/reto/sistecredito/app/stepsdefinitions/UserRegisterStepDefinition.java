@@ -19,12 +19,10 @@ public class UserRegisterStepDefinition {
     public void thaCamiloEntersTheDafitiApp(String actor) {
        theActorCalled(actor).wasAbleTo();
     }
-
     @When("^enter your data correctly$")
     public void enterYourDataCorrectly(List<User> user) {
         theActorInTheSpotlight().attemptsTo(UserRegister.inApp(user));
     }
-
     @Then("^must see profile (.*)$")
     public void mustSeeProfile(String email) {
         theActorInTheSpotlight().should(seeThat(ValidateRegister.getText(),equalTo(email)));

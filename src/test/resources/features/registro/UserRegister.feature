@@ -1,11 +1,11 @@
 #author Camilo Garcia
 
-  @userRegister
-  Feature: as Dafiti user
+@userRegister
+Feature: as Dafiti user
     I want to register in the app
     to buy products
 
-    @userRegisterSuccessful
+  @userRegisterSuccessful
   Scenario Outline: User register successful
     Given tha camilo enters the Dafiti app
     When enter your data correctly
